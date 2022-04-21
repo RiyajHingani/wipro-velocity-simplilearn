@@ -1,0 +1,10 @@
+Geography,GEO,Bakshi,12,A
+English,ENG2,Chandra,12,A
+History,HIST,Iyer,12,A
+Civics,CVC,Kumar,12,A
+Psychology,PSY,Reddy,12,A
+Biology,BIO,Banerjee,12,B
+English,ENG,Basu,12,B
+Physics,PHY,Bedi,12,B
+Chemistry,CHE,Jain,12,B
+Computers,COMP,Joshi,12,B

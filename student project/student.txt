@@ -1,0 +1,10 @@
+Aarav,12,A
+Hiya,12,A
+Kabir,12,A
+Rishit,12,A
+Yash,12,A
+Ananya,12,B
+Joseph,12,B
+Rebecca,12,B
+Saloni,12,B
+Zara,12,B
