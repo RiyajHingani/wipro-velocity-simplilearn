@@ -1,0 +1,31 @@
+div{
+  margin-top: 200px;
+  font-weight: bold;
+  display: block;
+  white-space: pre;
+  min-height: 1.2em;
+  padding: 0 2px 1px;
+  text-align: center;
+  margin-top: 200px;
+}
+button{
+  color: white;
+  background: green;
+  border: none;
+  font-size: 1.2rem;
+  padding: 1rem;
+  border-radius: 15rem;
+  outline: none;
+}
+
+button:hover{
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.Gpay {
+
+  margin-bottom: 50px;
+  min-height: 60px;
+}
+

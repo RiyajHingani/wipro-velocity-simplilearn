@@ -67,8 +67,9 @@ namespace TeachersData
         }
         static void SearchTeacher()
         {
-            string[] arrteacher = File.ReadAllLines(Path);
 
+            string[] arrteacher = File.ReadAllLines(Path);
+            int n = 0;
             Console.WriteLine("\nEnter ID to search");
             int search = int.Parse(Console.ReadLine());
             List<Teacher> Listteacher = new List<Teacher>();
@@ -87,8 +88,13 @@ namespace TeachersData
                 if (search == t2.Id)
                 {
                     Console.WriteLine($" \nTeachers Data found  \nId={t2.Id}  Name={t2.Name}  Class={t2.Class}   Section={t2.Section}");
+                    n = 1;
                     break;
                 }
+            }
+            if(n == 0)
+            {
+                Console.WriteLine("Teacher data not Found");
             }
         }
         static void UpdateTeacher()
